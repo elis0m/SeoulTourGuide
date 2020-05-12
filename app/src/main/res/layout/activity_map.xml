@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MapActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/categoryButton"
+            android:text="category"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp" />
+
+        <Button
+            android:id="@+id/Button_List"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="list"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="0dp"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/mapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/map"
+                android:layout_marginTop="5dp"
+                tools:context=".MapActivity"
+                android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment">
+        </RelativeLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>

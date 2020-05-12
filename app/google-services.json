@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "92880014230",
+    "firebase_url": "https://seoultravelguide.firebaseio.com",
+    "project_id": "seoultravelguide",
+    "storage_bucket": "seoultravelguide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92880014230:android:eec80141e1fb910ec4ebb7",
+        "android_client_info": {
+          "package_name": "com.example.som"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92880014230-06n80cun5o70o1e85pi6nf918r91eg4g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.som",
+            "certificate_hash": "7535d6763c483078ab08f5a0e4e6f51563a765b5"
+          }
+        },
+        {
+          "client_id": "92880014230-v0j518fuig744shrc7eobta60ah42oqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzPQbCSdVJXWCwW0zUG35F08_Rhk_gVaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92880014230-v0j518fuig744shrc7eobta60ah42oqf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

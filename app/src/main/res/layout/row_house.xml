@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    tools:context=".MuseumActivity"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/TextView_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="example_Name"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/TextView_City"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textColor="#000000"
+            android:text="example_phone"
+            android:paddingRight="6dp"
+            android:textSize="15sp"
+            android:ellipsize="end"
+            />
+
+        <TextView
+            android:id="@+id/TextView_Gu"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textColor="#000000"
+            android:text="example_phone"
+            android:paddingRight="6dp"
+            android:textSize="15sp"
+            android:ellipsize="end"
+            />
+
+        <TextView
+            android:id="@+id/TextView_Dong"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:textColor="#000000"
+            android:text="example_dong"
+            android:paddingRight="6dp"
+            android:textSize="15sp"
+            android:ellipsize="end"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

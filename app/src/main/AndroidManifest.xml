@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.som">
+
+    <uses-sdk android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/seoul"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".PopupActivity"
+            android:theme="@style/popupTheme" android:screenOrientation="portrait"></activity>
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".ExchangeActivity" />
+        <activity android:name=".AssetDetailActivity" />
+        <activity android:name=".AssetActivity" />
+        <activity android:name=".HistoryActivity" />
+        <activity android:name=".AudioDetailActivity" />
+        <activity android:name=".AudioActivity" />
+        <activity android:name=".WifiActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MusicActivity" />
+        <activity android:name=".GalleryActivity" />
+        <activity android:name=".MarketDetailActivity" />
+        <activity android:name=".MarketActivity" />
+        <activity android:name=".HouseDetailActivity" />
+        <activity android:name=".ShowpreferActivity" />
+        <activity android:name=".CultureDetailActivity" />
+        <activity android:name=".PreferenceActivity" />
+        <activity android:name=".HouseActivity" />
+        <activity android:name=".SpotActivity" />
+        <activity android:name=".MapActivity" />
+        <activity android:name=".MuseumActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAzPQbCSdVJXWCwW0zUG35F08_Rhk_gVaM" />
+    </application>
+
+</manifest>

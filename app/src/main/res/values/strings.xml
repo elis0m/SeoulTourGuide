@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">som</string>
+    <string name="country_prompt">currency</string>
+    <string-array name="country_array">
+        <item>KRW (Republic of Korea)</item>
+        <item>CAD (Canada)</item>
+        <item>CNY (China)</item>
+        <item>EUR (EU)</item>
+        <item>HKD (Hong Kong)</item>
+        <item>JPY (Japan)</item>
+        <item>MNT (Mongolia)</item>
+        <item>MYR (Malaysia)</item>
+        <item>RUB (Russia)</item>
+        <item>SGD (Singapore)</item>
+        <item>THB (Thailand)</item>
+        <item>TWD (Taiwan)</item>
+        <item>USD (United States of America)</item>
+        <item>VND (Vietnam)</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ExchangeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="Check the rate of exchange !"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:padding="20dp"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/Spinner_From"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:spinnerMode="dialog"
+                android:prompt="@string/country_prompt" />
+
+            <EditText
+                android:id="@+id/EditText_input"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:inputType="number"
+                android:digits="0123456789"
+                android:gravity="center"
+                android:textSize="27sp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:text="="
+            android:layout_margin="30dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Spinner
+                android:id="@+id/Spinner_To"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center"
+                android:spinnerMode="dialog"
+                android:prompt="@string/country_prompt"/>
+
+            <TextView
+                android:id="@+id/TextView_Result"
+                android:background="@drawable/custom_textview"
+                android:layout_width="150dp"
+                android:textStyle="bold"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:textColor="#980000"
+                android:textSize="28sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Button_exchange"
+            android:background="@drawable/custom_button"
+            android:textColor="#FFFFFF"
+            android:layout_margin="3dp"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:text="submit" />
+
+        <TextView
+            android:id="@+id/TextView_Date"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="17sp"
+            android:text="" />
+    </LinearLayout>
+
+</LinearLayout>

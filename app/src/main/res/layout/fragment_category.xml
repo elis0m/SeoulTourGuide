@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CategoryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <Button
+                android:id="@+id/Button_Museum"
+                android:layout_width="200dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:textSize="15dp"
+                android:text="MUSEUM"/>
+
+            <Button
+                android:id="@+id/Button_History"
+                android:layout_width="200dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:textSize="15dp"
+                android:text="history museum"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <Button
+                android:id="@+id/Button_Music"
+                android:layout_width="200dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:textSize="15dp"
+                android:text="korean traditional music"/>
+
+            <Button
+                android:id="@+id/Button_House"
+                android:layout_width="200dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:textSize="15dp"
+                android:text="experience
+                              korean-style house"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+            <Button
+                android:id="@+id/Button_Market"
+                android:layout_width="200dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:text="TRADITIONAL MARKET"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/Button_Info"
+                android:layout_width="200dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:text="TOURIST INFORMATION"
+                android:textSize="15dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <Button
+                android:id="@+id/Button_Asset"
+                android:layout_width="200dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:textSize="15dp"
+                android:text="CULTURAL ASSETS"/>
+
+            <Button
+                android:id="@+id/Button_Gallery"
+                android:layout_width="200dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:textSize="15dp"
+                android:text="ART GALLERY"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <Button
+                android:id="@+id/Button_Concert"
+                android:layout_width="200dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:textSize="15dp"
+                android:text="OPERA \n &amp; CLASSICAL CONCERT"/>
+
+            <Button
+                android:id="@+id/Button_Play"
+                android:layout_width="200dp"
+                android:layout_height="90dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:text="PLAY \n( in Korean )"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/Button_Cancel"
+            android:layout_width="130dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="150dp"
+            android:text="cancel"
+            android:textSize="12dp"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

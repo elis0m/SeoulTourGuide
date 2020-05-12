@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShowpreferActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="We recommend these places !"
+        android:textSize="25sp"
+        android:textColor="#ffffff"
+        android:padding="20dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/Button_1"
+            android:background="@drawable/custom_button_light"
+            android:textColor="#FFFFFF"
+            android:layout_margin="8dp"
+            android:layout_width="300dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp"
+            android:text="Null" />
+
+        <Button
+            android:id="@+id/Button_2"
+            android:background="@drawable/custom_button_light"
+            android:textColor="#FFFFFF"
+            android:layout_margin="8dp"
+            android:layout_width="300dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp"
+            android:text="Null"/>
+
+        <Button
+            android:id="@+id/Button_3"
+            android:background="@drawable/custom_button_light"
+            android:textColor="#FFFFFF"
+            android:layout_margin="8dp"
+            android:layout_width="300dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15dp"
+            android:text="Null"/>
+
+        <Button
+            android:id="@+id/Button_4"
+            android:background="@drawable/custom_button_light"
+            android:textColor="#FFFFFF"
+            android:layout_margin="8dp"
+            android:layout_width="300dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="15dp"
+            android:textSize="15dp"
+            android:text="Null"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_margin="35dp"
+            android:layout_centerInParent="true"
+            android:background="#5D5D5D"/>
+
+        <Button
+            android:id="@+id/Button_All"
+            android:background="@drawable/custom_button"
+            android:textColor="#FFFFFF"
+            android:layout_margin="3dp"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="14dp"
+            android:text="view all"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

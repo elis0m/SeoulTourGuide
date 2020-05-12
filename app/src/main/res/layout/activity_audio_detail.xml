@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AudioDetailActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0"
+            android:text="back"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Place Information"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:visibility="visible"
+            android:layout_marginRight="0dp"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="◆ Facility Name"
+            android:textSize="18dp"
+            android:layout_margin="4dp"/>
+
+        <TableRow
+            android:background="#5D5D5D">
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Eng"
+                android:background="@color/colorPrimary"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_margin="2dp" />
+
+            <TextView
+                android:id="@+id/TextView_NameENG"
+                android:linksClickable="true"
+                android:autoLink="web"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:maxWidth="250dp"
+                android:text="Null"
+                android:background="@color/colorPrimaryMedium"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_margin="2dp"/>
+        </TableRow>
+        <TableRow
+            android:background="#5D5D5D">
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="KOR"
+                android:background="@color/colorPrimary"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_margin="2dp" />
+
+            <TextView
+                android:id="@+id/TextView_NameKOR"
+                android:linksClickable="true"
+                android:autoLink="web"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:maxWidth="250dp"
+                android:text="Null"
+                android:background="@color/colorPrimaryMedium"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_margin="2dp"/>
+        </TableRow>
+    </TableLayout>
+
+            <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="8dp">
+
+                <TextView
+                    android:text="◆ Audio Guide (Simple ver.)"
+                    android:textSize="18dp"
+                    android:layout_margin="4dp"/>
+
+                <TableRow
+                    android:background="#5D5D5D"
+                    >
+                    <TextView
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="ENG"
+                        android:background="@color/colorPrimary"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:visibility="visible"
+                        android:layout_margin="2dp" />
+
+                    <TextView
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:id="@+id/TextView_SimpleENG"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="6"
+                        android:maxWidth="250dp"
+                        android:background="@color/colorPrimaryMedium"
+                        android:gravity="center"
+                        android:text="Null"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:visibility="visible"
+                        android:linksClickable="true"
+                        android:autoLink="web"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:background="#5D5D5D">
+                    <TextView
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="CHI"
+                        android:background="@color/colorPrimary"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:visibility="visible"
+                        android:layout_margin="2dp" />
+
+                    <TextView
+                        android:id="@+id/TextView_SimpleCHI"
+                        android:linksClickable="true"
+                        android:autoLink="web"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:text="Null"
+                        android:background="@color/colorPrimaryMedium"
+                        android:textColor="#000000"
+                        android:maxWidth="250dp"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:visibility="visible"
+                        android:layout_margin="2dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:background="#5D5D5D">
+                    <TextView
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="JAP"
+                        android:background="@color/colorPrimary"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:visibility="visible"
+                        android:layout_margin="2dp" />
+
+                    <TextView
+                        android:id="@+id/TextView_SimpleJAP"
+                        android:linksClickable="true"
+                        android:autoLink="web"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:text="Null"
+                        android:background="@color/colorPrimaryMedium"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:maxWidth="250dp"
+                        android:gravity="center"
+                        android:visibility="visible"
+                        android:layout_margin="2dp"/>
+                </TableRow>
+
+                <TableRow
+                    android:background="#5D5D5D">
+                    <TextView
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="KOR"
+                        android:background="@color/colorPrimary"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:visibility="visible"
+                        android:layout_margin="2dp" />
+
+                    <TextView
+                        android:id="@+id/TextView_SimpleKOR"
+                        android:linksClickable="true"
+                        android:autoLink="web"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:text="Null"
+                        android:background="@color/colorPrimaryMedium"
+                        android:textColor="#000000"
+                        android:textSize="15sp"
+                        android:maxWidth="250dp"
+                        android:gravity="center"
+                        android:visibility="visible"
+                        android:layout_margin="2dp"/>
+                </TableRow>
+
+            </TableLayout>
+
+            <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:padding="8dp">
+
+        <TextView
+            android:text="◆ Audio Guide (Detail ver.)"
+            android:textSize="18dp"
+            android:layout_margin="4dp"/>
+
+        <TableRow
+            android:background="#5D5D5D"
+            >
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ENG"
+                android:background="@color/colorPrimary"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_margin="2dp" />
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:id="@+id/TextView_DetailENG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="6"
+                android:maxWidth="250dp"
+                android:background="@color/colorPrimaryMedium"
+                android:gravity="center"
+                android:text="Null"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:visibility="visible"
+                android:linksClickable="true"
+                android:autoLink="web"
+                />
+        </TableRow>
+
+        <TableRow
+            android:background="#5D5D5D">
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="CHI"
+                android:background="@color/colorPrimary"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_margin="2dp" />
+
+            <TextView
+                android:id="@+id/TextView_DetailCHI"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:text="Null"
+                android:background="@color/colorPrimaryMedium"
+                android:textColor="#000000"
+                android:maxWidth="250dp"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:visibility="visible"
+                android:linksClickable="true"
+                android:autoLink="web"
+                android:layout_margin="2dp"/>
+        </TableRow>
+
+        <TableRow
+            android:background="#5D5D5D">
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="JAP"
+                android:background="@color/colorPrimary"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_margin="2dp" />
+
+            <TextView
+                android:id="@+id/TextView_DetailJAP"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:text="Null"
+                android:background="@color/colorPrimaryMedium"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:maxWidth="250dp"
+                android:gravity="center"
+                android:visibility="visible"
+                android:linksClickable="true"
+                android:autoLink="web"
+                android:layout_margin="2dp"/>
+        </TableRow>
+
+        <TableRow
+            android:background="#5D5D5D"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="KOR"
+                android:background="@color/colorPrimary"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_margin="2dp" />
+
+            <TextView
+                android:id="@+id/TextView_DetailKOR"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:text="Null"
+                android:background="@color/colorPrimaryMedium"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:maxWidth="250dp"
+                android:gravity="center"
+                android:visibility="visible"
+                android:linksClickable="true"
+                android:autoLink="web"
+                android:layout_margin="2dp"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

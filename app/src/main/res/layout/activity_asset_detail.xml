@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AssetDetailActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0"
+            android:text="back"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Place Information"
+            android:background="@color/colorPrimary"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:visibility="visible"
+            android:layout_marginRight="0dp"/>
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="8dp">
+
+        <TableRow
+            android:background="#5D5D5D">
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Asset\nName"
+                android:background="@color/colorPrimary"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_margin="2dp" />
+
+            <TextView
+                android:id="@+id/TextView_Name"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:maxWidth="250dp"
+                android:text="Null"
+                android:background="@color/colorPrimaryMedium"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_margin="2dp"/>
+        </TableRow>
+        <TableRow
+            android:background="#5D5D5D">
+
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Address"
+                android:background="@color/colorPrimary"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_margin="2dp" />
+
+            <TextView
+                android:id="@+id/TextView_Address"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:maxWidth="250dp"
+                android:text="Null"
+                android:background="@color/colorPrimaryMedium"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_margin="2dp"/>
+        </TableRow>
+
+
+        <TableRow
+            android:background="#5D5D5D">
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Specified\nDate"
+                android:background="@color/colorPrimary"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_margin="2dp" />
+
+            <TextView
+                android:id="@+id/TextView_specified"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:text="Null"
+                android:background="@color/colorPrimaryMedium"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:maxWidth="250dp"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_margin="2dp"/>
+        </TableRow>
+
+        <TableRow
+            android:background="#5D5D5D">
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Release\nDate"
+                android:background="@color/colorPrimary"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_margin="2dp" />
+
+            <TextView
+                android:id="@+id/TextView_release"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:text="Null"
+                android:background="@color/colorPrimaryMedium"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:maxWidth="250dp"
+                android:gravity="center"
+                android:visibility="visible"
+                android:layout_margin="2dp"/>
+        </TableRow>
+    </TableLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/mapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <fragment
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:id="@+id/map"
+                tools:context=".SpotActivity"
+                android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment">
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/TextView_Latitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:id="@+id/TextView_Longitude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </FrameLayout>
+
+</LinearLayout>
