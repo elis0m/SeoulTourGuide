@@ -4,6 +4,13 @@ MainActivity.java	// 앱에서 제공하는 기능들을 안내하는 메인페�
 
 ### 기능 1 : 관광지 정보
 
+<div>
+<img src="https://user-images.githubusercontent.com/62126092/95213725-1346fc80-082a-11eb-871b-2fc1202719a1.png" width="25%"/>
+<img src="https://user-images.githubusercontent.com/62126092/95213704-0d511b80-082a-11eb-9116-5e2b198a3fd8.png" width="25%"/>
+<img src="https://user-images.githubusercontent.com/62126092/95213675-06c2a400-082a-11eb-9a24-b40d099d06d9.png" width="25%"/>
+</div>
+
+
 - PreferenceActivity.java
 
   _실내, 야외 등의 사용자 선호사항 입력받는 페이지_
@@ -40,6 +47,7 @@ MainActivity.java	// 앱에서 제공하는 기능들을 안내하는 메인페�
 ___
 ### 기능 2 : 서울시 공공와이파이 정보 + 실시간 위치
 
+
 - WifiActivity.java	
 
   _사용자 실시간 위치, 와이파이 위치 마커 표시_
@@ -55,6 +63,11 @@ ___
 
 ___
 ### 기능 3 : 환율
+<div>
+<img src="https://user-images.githubusercontent.com/62126092/95212608-d4647700-0828-11eb-9f10-a14352f58e6f.png" width="25%"/>
+<img src="https://user-images.githubusercontent.com/62126092/95212837-15f52200-0829-11eb-874a-e4eb6269e102.png" width="25%"/>
+<img src="https://user-images.githubusercontent.com/62126092/95212864-1beb0300-0829-11eb-8692-85bbcfc72c12.png" width="25%"/>
+</div>
 
 - ExchangeActivity.java
 
