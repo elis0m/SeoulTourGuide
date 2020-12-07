@@ -46,7 +46,7 @@ MainActivity.java	// 앱에서 제공하는 기능들을 안내하는 메인페�
 
 ___
 ### 기능 2 : 서울시 공공와이파이 정보 + 실시간 위치
-
+<img src="https://user-images.githubusercontent.com/62126092/101382762-addfbc80-38fb-11eb-814f-b215fcebf9dd.png" width="25%"/>
 
 - WifiActivity.java	
 
